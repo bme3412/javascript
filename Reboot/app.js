@@ -1,21 +1,40 @@
-// Log to console
-console.log('Hello World');
-console.log(123);
-console.log(true);
-var greeting = 'hello';
-console.log(greeting);
-console.log([1,2,3,4]);
-console.log({a:1, b:2})
-console.table({a:1, b:2});
+// Primitive
 
-console.error('This is some error');
-console.clear();
+// String
+const name = 'Lionel';
+console.log(typeof name);
 
-console.warn('This is a warning');
+// Number
 
-console.time('Hello');
-    console.log('Hello World');
-    console.log('Hello World');
-    console.log('Hello World');
-    console.log('Hello World');
-console.timeEnd('Hello');
+const age = 34;
+console.log(typeof age);
+
+
+// Boolean
+const hasKids = false;
+console.log(typeof hasKids);
+
+// Null
+const car = null;
+console.log(typeof car);
+
+// Undefined
+
+// Smymbol
+const sym = Symbol();
+console.log(typeof sym);
+
+// REFERENCE TYPES - Objets
+// Array
+const hobbies = ['movies', 'music'];
+
+// object literal
+const address = {
+    city: 'Boston',
+    state: 'MA'
+}
+
+const today = new Date()
+console.log(today);
+console.log(typeof address);
+
